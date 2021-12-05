@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_raphael.mk
+    $(LOCAL_DIR)/voltage_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_raphael-user \
-    spark_raphael-userdebug \
-    spark_raphael-eng
+    voltage_raphael-user \
+    voltage_raphael-userdebug \
+    voltage_raphael-eng

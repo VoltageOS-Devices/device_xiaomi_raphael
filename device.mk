@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-spark \
+    $(LOCAL_PATH)/overlay-voltage \
     $(LOCAL_PATH)/overlay-system
 
 # ANT+
@@ -215,9 +215,6 @@ PRODUCT_COPY_FILES += \
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
-
-# GoogleCamera
-$(call inherit-product-if-exists, vendor/GoogleCamera/GoogleCamera.mk)
 
 # Google Photos
 PRODUCT_COPY_FILES += \
