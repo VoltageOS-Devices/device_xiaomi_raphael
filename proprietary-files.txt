@@ -1437,8 +1437,8 @@ vendor/bin/ssr_setup
 vendor/bin/thermal-engine
 vendor/bin/thermal_factory
 vendor/etc/init/init_thermal-engine.rc
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
+vendor/lib/libthermalclient.so
+vendor/lib64/libthermalclient.so
 
 # Thermal (Xiaomi)
 vendor/bin/mi_thermald
