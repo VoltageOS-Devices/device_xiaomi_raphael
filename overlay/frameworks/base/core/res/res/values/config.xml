@@ -607,4 +607,7 @@
 
     <!-- Exempt ImsService from privacy (location) indicators -->
     <string name="config_systemAudioIntelligence" translatable="false">org.codeaurora.ims</string>
+
+    <!-- Set default UDFPS icon pressed color to Cyan -->
+    <integer name="config_fod_pressed_color">0</integer>
 </resources>
