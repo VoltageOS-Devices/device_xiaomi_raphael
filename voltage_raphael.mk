@@ -30,6 +30,9 @@ TARGET_BOOT_ANIMATION_RES := 2160
 # UDFPS animations
 EXTRA_UDFPS_ANIMATIONS := true
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := voltage_raphael
 PRODUCT_DEVICE := raphael
